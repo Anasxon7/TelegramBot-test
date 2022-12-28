@@ -28,7 +28,7 @@ const api = '5753168004:AAE2lzlciti4FuQOZKy2AfhKe2WekdYz3jQ'
 
 const bot = new TelegramApi(api, {polling: true})
 const chats = {}
-const gameOptions = {asdasdasdasd
+const gameOptions = {
     reply_markup: JSON.stringify( {
         inline_keyboard: [
             [{text: '1', callback_data: '1'},{text: '2', callback_data: '2'},{text: '3', callback_data: '3'}],
